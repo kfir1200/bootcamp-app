@@ -27,4 +27,5 @@ This sample application demonstrates the following technologies.
 1. Initialize the PostgreSQL database by running `npm run initdb`
 1. Run `npm run dev` to start Node.js
 
-The associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.
+[The associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.](https://developer.okta.com/blog/2020/06/01/node-postgres-weight-tracker)
+
