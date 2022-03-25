@@ -7,7 +7,7 @@ usage()
     
           -u - OKTA_ORG_URL
           -i - OKTA_CLIENT_ID
-          -s - OKTA_CLIENT__SECRET
+          -s - OKTA_CLIENT_SECRET
           -h - POSTGRES_HOST_IP
           -p - DB_PASSWORD 
     
