@@ -19,7 +19,7 @@ usage()
 
         for example:
 
-        ./deploy.sh -u {OKTA_ORG_URL} -i {OKTA_CLIENT_ID} -s {OKTA_CLIENT__SECRET} -h {DB_HOST_IP} -p {DB_PASSWORD}";exit 1
+        ./deploy.sh -u {OKTA_ORG_URL} -i {OKTA_CLIENT_ID} -s {OKTA_CLIENT_SECRET} -h {DB_HOST_IP} -p {DB_PASSWORD}";exit 1
      
 }
 #this method gets the flag's and the argument from the user 
