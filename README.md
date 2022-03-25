@@ -29,3 +29,29 @@ This sample application demonstrates the following technologies.
 
 [This associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.](https://developer.okta.com/blog/2020/06/01/node-postgres-weight-tracker)
 
+# deploy. sh script
+This bash script will configure and deploy the WeightTracker App automatically.
+
+## How to use this script
+
+**Mandatory flags:**
+    
+          -u - OKTA_ORG_URL
+          -i - OKTA_CLIENT_ID
+          -s - OKTA_CLIENT_SECRET
+          -h - POSTGRES_HOST_IP
+          -p - DB_PASSWORD 
+    
+**Optional flags:**
+
+          -n - POSTGRES_USER_NAME, if not provided the default username is: postgres
+          -d - POSTGRES_DATABASE, if not provided the default database  is: postgres
+          -o - POSTGRES_PORT, if not provided the default port is: 5432
+          
+
+**Install and Configuration:**
+1.  Clone or download source files.
+2.  Create a [free Okta developer account](https://developer.okta.com/) and add a web application for this app.
+3.  Create PostgreSQL DB.
+4.  Run `chmod 777 deploy.sh`
+5.  run `./deploy.sh -u {OKTA_ORG_URL} -i {OKTA_CLIENT_ID} -s {OKTA_CLIENT_SECRET} -h {POSTGRES_HOST_IP} -p {DB_PASSWORD }`
