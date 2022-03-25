@@ -82,7 +82,6 @@ installation()
     sudo apt -y upgrade
     curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
     sudo apt -y install nodejs
-    git clone https://github.com/kfir1200/bootcamp-app.git
     cd bootcamp-app
     sudo npm install dotenv
     sudo npm install nodemon
