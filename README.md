@@ -53,5 +53,6 @@ This bash script will configure and deploy the WeightTracker App automatically.
 1.  Clone or download source files.
 2.  Create a [free Okta developer account](https://developer.okta.com/) and add a web application for this app.
 3.  Create PostgreSQL DB.
-4.  Run `chmod 777 deploy.sh`
-5.  run `./deploy.sh -u {OKTA_ORG_URL} -i {OKTA_CLIENT_ID} -s {OKTA_CLIENT_SECRET} -h {POSTGRES_HOST_IP} -p {DB_PASSWORD }`
+4.  Run `cd bootcamp-app` 
+5.  Run `chmod 777 deploy.sh`
+6.  run `./deploy.sh -u {OKTA_ORG_URL} -i {OKTA_CLIENT_ID} -s {OKTA_CLIENT_SECRET} -h {POSTGRES_HOST_IP} -p {DB_PASSWORD }`
