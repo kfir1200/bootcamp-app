@@ -86,7 +86,7 @@ installation()
     sudo npm install dotenv
     sudo npm install nodemon
     sudo npm install pm2 -g
-    npm run install
+    sudo npm install
 }
 # this function creates the .env file according to the parameter the user provides
 create_env_file()
